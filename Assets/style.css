@@ -1,0 +1,13 @@
+
+#scores, #timer {
+    font-size: 18px;
+    color: blue;
+} 
+
+#quiz-screen {
+    display: none;
+}
+
+.hide {
+    display : none;
+}

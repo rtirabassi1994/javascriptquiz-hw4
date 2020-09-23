@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<link rel="stylesheet" href="./Assets/style.css">
+<title>Coding Quiz</title>
+</head>
+<body>
+
+
+<div class="row justify-content-center">
+    <div class="row">
+        <div id="scores"><div class="col-lg-2">High Scores</div></div>
+        <span id="timer"><div class="col-lg-2">Time:</div></span>
+    </div>
+</div>
+    
+    
+
+<div id = "start-screen">  
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome to the Javascript Fundamental Coding Quiz!</h1>
+            <p class="lead">You are given 75 seconds to answer 5 questions about Javascript correctly. Every incorrect answer deducts 15 seconds from your score. Your score will be the remaining time. Good luck!</p>
+            <hr class="my-4">
+            <div id = "quiz-question"><p>Press the start button to begin!</p></div>
+            <button class="btn btn-primary" id="startBtn">Start</button>
+            <div id=“quizQuestionBtns”></div>
+        </div>
+    </div>
+</div>
+
+<!-- <div id ="quiz-screen">
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-4">Welcome to the Javascript Fundamental Coding Quiz!</h1>
+                <hr class="my-4">
+                <div id = "quiz-question"><p>Press the start button to begin!</p></div>
+                <div id="quiz-question-buttons">
+                 <button type="button" class="btn btn-primary btn-lg btn-block" id= "qOne" onclick="getQuestion1()">Q1</button>
+                <button type="button" class="btn btn-secondary btn-lg btn-block" id= "qTwo" onclick="getQuestion2()">Q2</button>
+                <button type="button" class="btn btn-primary btn-lg btn-block" id= "qThree" onclick="getQuestion3()">Q3</button>
+                <button type="button" class="btn btn-secondary btn-lg btn-block" id ="qFour" onclick="getQuestion4()">Q4</button>
+                </div> 
+            </div>
+        </div>
+</div> -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./Assets//index.js"></script>
+</body>
+</html>
